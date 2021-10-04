@@ -1,0 +1,16 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased Cost Estimate,US East (Ohio),,Amazon Aurora MySQL-Compatible,0,5649.29,67791.48,USD,"Change records per statement (0.38), Nodes (2), Instance Type (db.r5.8xlarge), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (10 TB), Additional backup storage (10 TB)"
+Increased Cost Estimate,US East (Ohio),,Application Load Balancer,0,119.35,1432.20,USD,Number of Application Load Balancers (3)
+Increased Cost Estimate,US East (Ohio),,Amazon Virtual Private Cloud (VPC),0,33.3,399.60,USD,Number of NAT Gateways (1)
+Increased Cost Estimate,US East (Ohio),,Amazon CloudFront,0,920.4,11044.80,USD,"Data transfer out to internet (10 TB per month), Number of requests (HTTPS) (50000000 per month)"
+Increased Cost Estimate,US East (Ohio),,Amazon EC2,0,5701.12,68413.44,USD,"Operating system (Linux), Quantity (16), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (m5.4xlarge)"
+Increased Cost Estimate,US East (Ohio),,Amazon Virtual Private Cloud (VPC),0,614.3100000000001,7371.72,USD,"DT Inbound: Internet (5 TB per month), DT Outbound: Internet (5 TB per month), DT Outbound: US East (N. Virginia) (5 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (5 TB per month), Data transfer cost (614.3100000000001)"
+Increased Cost Estimate,US East (Ohio),,S3 Standard,0,244.52,2934.24,USD,S3 Standard storage (10 TB per month)
+Increased Cost Estimate,US East (Ohio),,Data Transfer,0,921.51,11058.12,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Internet (10 TB per month)"
+Increased Cost Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,3444.6899999999996,41336.28,USD,"Change records per statement (0.38), Nodes (1), Instance Type (db.r5.8xlarge), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (10 TB), Additional backup storage (10 TB)"
+Increased Cost Estimate,US East (N. Virginia),,Amazon EC2,0,1425.28,17103.36,USD,"Operating system (Linux), Quantity (4), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (m5.4xlarge)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
